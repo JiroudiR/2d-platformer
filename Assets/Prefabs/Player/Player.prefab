@@ -295,7 +295,7 @@ MonoBehaviour:
   defaultHealth: 2
   maximumHealth: 5
   currentHealth: 2
-  invincibilityTime: 2
+  invincibilityTime: 0.25
   useLives: 1
   currentLives: 3
   maximumLives: 99
