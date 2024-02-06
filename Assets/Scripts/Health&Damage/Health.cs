@@ -10,6 +10,7 @@ using UnityEngine;
 /// </summary>
 public class Health : MonoBehaviour
 {
+    public GameObject keyType;
     [Header("Team Settings")]
     [Tooltip("The team associated with this damage")]
     public int teamId = 0;
@@ -248,6 +249,11 @@ public class Health : MonoBehaviour
         if (deathEffect != null)
         {
             Instantiate(deathEffect, transform.position, transform.rotation, null);
+        }
+
+        if (keyType != null)
+        {
+            Instantiate(keyType, transform.position, transform.rotation, null);
         }
 
         if (useLives)

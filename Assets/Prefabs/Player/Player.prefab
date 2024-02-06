@@ -274,7 +274,7 @@ MonoBehaviour:
   playerHealth: {fileID: 8128307141711142836}
   movementSpeed: 4
   jumpPower: 25
-  allowedJumps: 1
+  allowedJumps: 2
   jumpDuration: 0.2
   jumpEffect: {fileID: 5292095507754917487, guid: 2fb165b4197aaab44b86dcf05643229a, type: 3}
   passThroughLayers: []
