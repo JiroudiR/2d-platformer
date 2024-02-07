@@ -3180,6 +3180,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8128307141711142835, guid: f006cf5465b49454cadf7963274a18f5, type: 3}
+      propertyPath: allowedJumps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128307141711142835, guid: f006cf5465b49454cadf7963274a18f5, type: 3}
       propertyPath: inputManager
       value: 
       objectReference: {fileID: 327701686}
@@ -3446,7 +3450,8 @@ PrefabInstance:
       value: Level3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4929911467402535594, guid: 6b278329ac77eb7438a3ac3a58e97860, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6b278329ac77eb7438a3ac3a58e97860, type: 3}
