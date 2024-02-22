@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2c7cc4c3cc08ca44ebdd6f1571de0373, type: 3}
-    m_FontSize: 18
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -193,17 +193,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'AD Keys / Left Stick - Movement
-
-    Spacebar / A button - Jump (Press
-    twice to double jump in Level 3 only)
+  m_Text: 'Movement: AD Keys / Left-Right Arrow Keys / Left-Right D-Pad / Left Stick
 
 
-    Keys in each level open the doors
-    corresponding to the key''s color.
+    Jump:
+    Spacebar / W key / Up Arrow Key / Up D-Pad / South Gamepad button (Press twice
+    to double jump in Level 3 only)
 
 
-    Reach the red gem to complete the level.'
+    Pause: Esc Key / Start
+
+
+    Keys in each
+    level open the doors corresponding to the key''s color.
+
+
+    Reach the red gem
+    to complete the level.'
 --- !u!222 &246117376
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1287,6 +1293,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Level3
       objectReference: {fileID: 0}
+    - target: {fileID: 4701486191136822711, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1482be5ae96b10b4591a43ea2814ff44, type: 3}
+    - target: {fileID: 4701486191408806692, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701486191408806692, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701486191408806693, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6122e7d6bb61d574088b0d5cfe631cee, type: 3}
     - target: {fileID: 4701486191492497490, guid: c45041f43743ded48bcedcf90819a218, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1641,6 +1663,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7769329808521385285, guid: c45041f43743ded48bcedcf90819a218, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_Text
+      value: The Martian-462 Infiltration
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8461449077114673277, guid: c45041f43743ded48bcedcf90819a218, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
